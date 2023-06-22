@@ -17,4 +17,5 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
-SELECT SUM(c12) FROM tbl1
+consulta = "SELECT SUM(c12) FROM tbl1"
+cursor.execute(consulta)
