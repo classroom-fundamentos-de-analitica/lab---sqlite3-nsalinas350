@@ -19,3 +19,5 @@
 --
 consulta = "SELECT SUM(c12) FROM tbl1"
 cursor.execute(consulta)
+resultado = cursor.fetchone()[0]
+print("SUM(c12)\n0  {:.2f}".format(resultado))
