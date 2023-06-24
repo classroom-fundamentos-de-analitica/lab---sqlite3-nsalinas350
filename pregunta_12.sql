@@ -42,3 +42,6 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+ SELECT tbl1.K0, MAX(tbl1.c12) AS max_c12
+   FROM tbl1
+   GROUP BY tbl1.K0
