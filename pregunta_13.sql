@@ -43,6 +43,6 @@
 -- 
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
-SELECT K0, avg(tbl1.c12) AS avg_c12 
-FROM tbl1 WHERE tbl1.c13 > 400 
+SELECT K0, avg(c12) AS avg_c12 
+FROM tbl1 WHERE c13 > 400 
 GROUP BY K0
