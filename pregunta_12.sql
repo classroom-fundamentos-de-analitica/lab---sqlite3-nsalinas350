@@ -42,4 +42,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
- SELECT tbl1.K0, MAX(tbl1.c12), MIN(tbl1.c12) FROM tbl1 GROUP BY tbl1.K0
+ SELECT K0, MAX(tbl1.c12), MIN(tbl1.c12) FROM tbl1 GROUP BY tbl1.K0
