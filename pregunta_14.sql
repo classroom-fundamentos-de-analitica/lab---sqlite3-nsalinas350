@@ -43,5 +43,8 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
-SELECT tbl1.K0, AVG(tbl2.c21) FROM tbl1 JOIN tbl2 ON tbl1.K1 = tbl2.K1 WHERE tbl1.c13 > 400 GROUP BY tbl1.K0 ORDER BY tbl1.K0;
-
+SELECT K0, AVG(c21)
+FROM tbl1
+JOIN tbl2 ON tbl1.K1 = tbl2.K1
+WHERE c13 > 400
+GROUP BY K0
